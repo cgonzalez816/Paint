@@ -16,38 +16,45 @@
 
     <LinearLayout
         android:orientation="horizontal"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_weight="1"
         android:layout_height="0dp">
 
-        <Button
+        <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:src="@drawable/ic_stat_name"
             android:id="@+id/button" />
 
-        <Button
+        <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:src="@drawable/trazo"
             android:id="@+id/button2" />
 
-        <Button
+        <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:src="@drawable/borrar"
             android:id="@+id/button3" />
 
-        <Button
+        <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="New Button"
+            android:src="@drawable/guardar"
             android:id="@+id/button4" />
     </LinearLayout>
+
+    <com.example.treznor.paint.Lienzo
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:id="@+id/Lienzo"
+        android:background="#FFFFFFFF"/>
 
     <LinearLayout
         android:orientation="horizontal"
@@ -58,32 +65,47 @@
         <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton" />
+            android:layout_height="@dimen/alturacolor"
+            android:id="@+id/imageButton"
+            android:tag="#FF000000"
+            android:background="#FF000000"
+            />
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton2" />
+            android:layout_height="@dimen/alturacolor"
+            android:id="@+id/imageButton2"
+            android:tag="#FFFFFFFF"
+            android:background="#FFFFFFFF"
+            />
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton3" />
+            android:layout_height="@dimen/alturacolor"
+            android:id="@+id/imageButton3"
+            android:tag="#FF0000FF"
+            android:background="#FF0000FF"
+            />
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton4" />
+            android:layout_height="@dimen/alturacolor"
+            android:id="@+id/imageButton4"
+            android:tag="#FFFF0000"
+            android:background="#FFFF0000"
+            />
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:layout_height="wrap_content"
-            android:id="@+id/imageButton5" />
+            android:layout_height="@dimen/alturacolor"
+            android:id="@+id/imageButton5"
+            android:tag="#FF00FF00"
+            android:background="#FF00FF00"
+            />
     </LinearLayout>
 
 </LinearLayout>
