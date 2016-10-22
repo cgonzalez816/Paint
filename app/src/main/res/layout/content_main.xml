@@ -25,28 +25,28 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_stat_name"
-            android:id="@+id/button" />
+            android:id="@+id/ADD" />
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:src="@drawable/trazo"
-            android:id="@+id/button2" />
+            android:id="@+id/trazo" />
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:src="@drawable/borrar"
-            android:id="@+id/button3" />
+            android:id="@+id/borrar" />
 
         <ImageButton
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:src="@drawable/guardar"
-            android:id="@+id/button4" />
+            android:id="@+id/guardar" />
     </LinearLayout>
 
     <com.example.treznor.paint.Lienzo
